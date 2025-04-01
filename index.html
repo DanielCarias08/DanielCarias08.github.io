@@ -1,1 +1,129 @@
-¨Hello world¨
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Currículum</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1, h2 {
+            color: #333;
+        }
+
+        .info {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+
+        .info div {
+            flex: 1;
+            padding: 10px;
+            margin: 0 5px;
+            background-color: #f0f0f0;
+            border-radius: 6px;
+        }
+
+        .profile-pic {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-right: 20px;
+        }
+
+        @media screen and (max-width: 600px) {
+            .info {
+                flex-direction: column;
+            }
+
+            .profile-pic {
+                margin-right: 0;
+                margin-bottom: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mi Currículum</h1>
+    </header>
+
+    <section>
+        <div style="text-align: center;">
+            <img class="profile-pic" src="https://img.freepik.com/vector-gratis/hombre-lindo-que-trabaja-computadora-portatil-ilustracion-icono-vector-historieta-cafe-concepto-icono-tecnologia-personas-aislado-vector-premium-estilo-dibujos-animados-plana_138676-3869.jpg?t=st=1743470376~exp=1743473976~hmac=aee9f5b4b0ee90713499871ef92e4de39a7b96e0d9d82a55afc227e2bfe78260&w=900" alt="Foto de perfil">
+        </div>
+    </section>
+
+    <section>
+        <h2>Datos Personales</h2>
+        <div class="info">
+            <div>
+                <h3>Nombre</h3>
+                <p>Luis Daniel Carías Alvarado</p>
+            </div>
+            <div>
+                <h3>Correo Electrónico</h3>
+                <p>prueba@gmail.com</p>
+            </div>
+            <div>
+                <h3>Teléfono</h3>
+                <p>(123) 12345678</p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Experiencia Laboral</h2>
+        <div>
+            <h3>Auxiliar de Archivo</h3>
+            <p>Movimiento Socialmente Responsable, Guatemala | 20/06/2022 - 23/12/2022</p>
+            <ul>
+                <li>Encargado  de archivar documentos, como pagarés, cartas laborales, papeleria de seguimiento para las respectivas demandas en curos, ademas de digitalizar dichos documentos.</li>
+                
+            </ul>
+        </div>
+
+        <div>
+            <h3>Auxiliar Operativo</h3>
+            <p>Bac Credomatic - Guatemala | 22/07/2023 - 27/12/2024</p>
+            <ul>
+                <li>Ensobrado de tarjetas de crédito y débito con atención meticulosa a la privacidad del cliente.</li>
+                
+            </ul>
+        </div>
+    </section>
+
+    <section>
+        <h2>Educación</h2>
+        <div>
+            <h3>Grado Medio</h3>
+            <p>Colegio Mixto NICTÉ - Guatemala | 15/02/2021 - 20/11/2021 </p>
+            <p>Bachiller en Ciencias y Letras por madurez</p>
+        </div>
+    </section>
+</body>
+</html>
